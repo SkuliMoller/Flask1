@@ -27,7 +27,7 @@
         <li> Gefum okkur að vafri sendi fyrirspurn á vefþjón og vefþjónn sendir til baka boð sem segir að allt hafi heppnast án villu.  Hvaða status code fær vafrinn frá vefþjóninum?
             <ul>
                 <li>100 OK</li>
-                <li>200 OK</li>
+                <li class="rett">200 OK</li>
                 <li>404 OK</li>
             </ul>
         </li>
@@ -35,13 +35,13 @@
             <ul>
                 <li>HTTP/1.0</li>
                 <li>HTTP/1.1</li>
-                <li>HTTP/2.0</li>
+                <li class="rett">HTTP/2.0</li>
             </ul>
         </li>
         <li> Hvað er sjálfgefið port á vöfrum?
             <ul>
                 <li>88</li>
-                <li>80</li>
+                <li class="rett">80</li>
                 <li>8080</li>
             </ul>
         </li>
@@ -49,37 +49,37 @@
             <ul>
                 <li>.pdf</li>
                 <li>.mp3</li>
-                <li>.html</li>
+                <li class="rett">.html</li>
             </ul>
         </li>
         <li> Hvert af eftirtöldu lýsir best tilgangi og hlutverki HTTP staðalsins?
             <ul>
                 <li>HTTP staðalinn er notaður til meðhöndla samskipti póstþjóna (mail servers)</li>
-                <li>HTTP staðalinn er samskiptastaðall sem höndlar samskipti milli vafra (client) og vefþjóna (webservers)</li>
+                <li class="rett">HTTP staðalinn er samskiptastaðall sem höndlar samskipti milli vafra (client) og vefþjóna (webservers)</li>
                 <li>HTTP staðalinn er neðsta lagið í 7 laga OSI staðlinum.</li>
             </ul>
         </li>
         <li> Skiptu upp eftrifarandi vefslóð (URL) <b>http://www.mbl.is/frettir?a=2&b=3</b>
             <ul>
-                <li>protocol: (skýring hér ....)</li>
-                <li>host:(skýring hér ....)</li>
-                <li>query parameter: (skýring hér ....)</li>
+                <li class="rett">protocol: (http)</li>
+                <li class="rett">host:(www.mbl.is)</li>
+                <li class="rett">query parameter: (?a=2&b=3)</li>
             </ul>
         </li>
         <li> Hvað er átt við með því þegar talað er um að HTTP staðallinn sé stateless protocol?
             <ul>
-                <li>(skýring hér ....)</li>
+                <li class="rett">Client og serverinn vita um hvort annað bara á núverandi request, ef það lokast, og tölvurnar vilja tengjast aftur, þurfa þær að veita hvor öðrum aftur upplýsingar og tengingin er meðhöndluð sem sú fyrsta.</li>
             </ul>
         </li>
         <li> Hvaða skýring passar við "GET Request"
             <ul>
                 <li>GET sendir gögn á miðlara, krafan er ekki geymd í vinnsluminni og birtist ekki í vefslóð</li>
-                <li>GET sækir gögn sem beðið er um af miðlara, krafan birtist í vefslóðinni og er geymd í vinnsluminni vafrans</li>
+                <li class="rett">GET sækir gögn sem beðið er um af miðlara, krafan birtist í vefslóðinni og er geymd í vinnsluminni vafrans</li>
             </ul>
         </li>
         <li> Hvaða skýring passar við POST request?
             <ul>
-                <li>POST sendir gögn á miðlara, krafan birtist ekki í vefslóð og fer ekki í vinnsluminnið (Cache)</li>
+                <li class="rett">POST sendir gögn á miðlara, krafan birtist ekki í vefslóð og fer ekki í vinnsluminnið (Cache)</li>
                 <li>POSTsækir gögn sem beðið er um af miðlara, krafan birtist í vefslóðinni og er geymd í vinnsluminni vafrans</li>
             </ul>
         </li>
